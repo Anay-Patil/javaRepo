@@ -12,7 +12,7 @@ public class checkIN
 		System.out.println("Enter your name:");
 		name = sc.next();
 		System.out.println("Enter your Address:");
-		add = sc.nextLine();
+		add = sc.next();
 		System.out.println("Enter Valid Adhar number");
 		adhar = sc.nextInt();
 		
@@ -32,7 +32,7 @@ public class checkIN
 		System.out.println("Enter your name:");
 		name = sc.next();
 		System.out.println("Enter your Address:");
-		add = sc.nextLine();
+		add = sc.next();
 		System.out.println("Enter Valid Adhar number");
 		adhar = sc.nextInt();
 		
@@ -52,7 +52,7 @@ public class checkIN
 		System.out.println("Enter your name:");
 		name = sc.next();
 		System.out.println("Enter your Address:");
-		add = sc.nextLine();
+		add = sc.next();
 		System.out.println("Enter Valid Adhar number");
 		adhar = sc.nextInt();
 		
@@ -63,7 +63,7 @@ public class checkIN
 	
 	public void pre_suite()
 	{
-		int adhar;
+		String adhar;
 		String name,add,ref_id;
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter your reference id (Alphanumeric)");
@@ -71,9 +71,9 @@ public class checkIN
 		System.out.println("Enter your name:");
 		name = sc.next();
 		System.out.println("Enter your Address:");
-		add = sc.nextLine();
+		add = sc.next();
 		System.out.println("Enter Valid Adhar number");
-		adhar = sc.nextInt();
+		adhar = sc.next();
 		
 		System.out.println("Hello "+name+" your Presidential Suite is almost booked! Please confirm your transaction. Your Transaction ID: ACRAF23DB3C4");
 		System.out.println("Total Price (incl taxes): Rs.37000");
